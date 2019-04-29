@@ -1,0 +1,53 @@
+.container {
+	max-width: 960px;
+}
+.panel{
+	margin-bottom: 0;
+}
+
+.topic:hover {
+	background: #f6f6f6;
+}
+.topic {
+	padding-top: 10px;
+}
+.cell {
+	border-bottom: 1px solid #F0F0F0;
+}
+.topic .item_title {
+	padding-left: 13px;
+}
+h2.topic_title {
+	font-size: 16px;
+	font-weight: normal;
+	margin: 0 auto 5px;
+}
+.topic .topic-meta {
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+.box {
+	border-radius: 3px;
+	box-shadow: 0px 1px 5px rgba(0,0,0,0.15);
+	border-bottom: 1px solid #E2E2E9;
+	margin-bottom: 20px;
+	background-color: #fff;
+}
+.box .cell, .box .box-header {
+	padding: 10px;
+	border-bottom: 1px solid #F0F0F0;
+}
+.box .inner {
+	padding: 10px;
+}
+#topic_title {
+	font-size: 20px;
+	word-wrap: break-word;
+	overflow: auto;
+}
+.content img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+}
