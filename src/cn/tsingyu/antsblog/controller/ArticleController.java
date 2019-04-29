@@ -13,7 +13,7 @@ import com.jfinal.core.Controller;
 /**
  * 
  * 
- * @author 邓金胜
+ * @author 邓金胜  第二次
  *
  */
 @Before (LoginInterceptor.class)
