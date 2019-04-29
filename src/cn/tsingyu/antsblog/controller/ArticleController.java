@@ -10,6 +10,12 @@ import com.jfinal.aop.Before;
 import com.jfinal.aop.Clear;
 import com.jfinal.core.Controller;
 
+/**
+ * 
+ * 
+ * @author 邓金胜
+ *
+ */
 @Before (LoginInterceptor.class)
 public class ArticleController extends Controller {
 	public void index(){
